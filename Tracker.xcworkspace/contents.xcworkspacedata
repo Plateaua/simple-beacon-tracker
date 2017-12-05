@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Tracker.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:Pods"
+      name = "Pods">
+      <FileRef
+         location = "group:Pods.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:Socket.IO-Client-Swift"
+         name = "Socket.IO-Client-Swift">
+         <FileRef
+            location = "group:LICENSE">
+         </FileRef>
+         <Group
+            location = "group:Source"
+            name = "Source">
+            <Group
+               location = "group:SocketIO"
+               name = "SocketIO">
+               <Group
+                  location = "group:Util"
+                  name = "Util">
+                  <FileRef
+                     location = "group:SocketStringReader.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SocketLogger.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SocketExtensions.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SSLSecurity.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SocketTypes.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Parse"
+                  name = "Parse">
+                  <FileRef
+                     location = "group:SocketParsable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SocketPacket.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Manager"
+                  name = "Manager">
+                  <FileRef
+                     location = "group:SocketManagerSpec.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SocketManager.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Engine"
+                  name = "Engine">
+                  <FileRef
+                     location = "group:SocketEngineClient.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SocketEngineWebsocket.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SocketEnginePollable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SocketEngineSpec.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SocketEnginePacketType.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SocketEngine.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Client"
+                  name = "Client">
+                  <FileRef
+                     location = "group:SocketIOClientConfiguration.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SocketAnyEvent.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SocketIOClient.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SocketIOClientOption.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SocketEventHandler.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SocketIOClientSpec.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SocketIOStatus.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Ack"
+                  name = "Ack">
+                  <FileRef
+                     location = "group:SocketAckManager.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SocketAckEmitter.swift">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Target Support Files"
+         name = "Target Support Files">
+         <Group
+            location = "group:Pods-TrackerUITests"
+            name = "Pods-TrackerUITests">
+            <FileRef
+               location = "group:Pods-TrackerUITests.release.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-TrackerUITests-dummy.m">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-TrackerUITests.modulemap">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-TrackerUITests-acknowledgements.plist">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-TrackerUITests-frameworks.sh">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-TrackerUITests-resources.sh">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-TrackerUITests-umbrella.h">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-TrackerUITests-acknowledgements.markdown">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-TrackerUITests.debug.xcconfig">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Socket.IO-Client-Swift"
+            name = "Socket.IO-Client-Swift">
+            <FileRef
+               location = "group:Socket.IO-Client-Swift.modulemap">
+            </FileRef>
+            <FileRef
+               location = "group:Socket.IO-Client-Swift.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:Socket.IO-Client-Swift-dummy.m">
+            </FileRef>
+            <FileRef
+               location = "group:Socket.IO-Client-Swift-prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:Socket.IO-Client-Swift-umbrella.h">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Starscream"
+            name = "Starscream">
+            <FileRef
+               location = "group:Starscream.modulemap">
+            </FileRef>
+            <FileRef
+               location = "group:Starscream-dummy.m">
+            </FileRef>
+            <FileRef
+               location = "group:Starscream-prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:Starscream.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:Starscream-umbrella.h">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Pods-TrackerTests"
+            name = "Pods-TrackerTests">
+            <FileRef
+               location = "group:Pods-TrackerTests-resources.sh">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-TrackerTests-acknowledgements.plist">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-TrackerTests-dummy.m">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-TrackerTests.modulemap">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-TrackerTests-acknowledgements.markdown">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-TrackerTests-frameworks.sh">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-TrackerTests.debug.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-TrackerTests-umbrella.h">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-TrackerTests.release.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Pods-Tracker"
+            name = "Pods-Tracker">
+            <FileRef
+               location = "group:Pods-Tracker-acknowledgements.plist">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-Tracker-dummy.m">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-Tracker-umbrella.h">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-Tracker.debug.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-Tracker.release.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-Tracker-resources.sh">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-Tracker-frameworks.sh">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-Tracker.modulemap">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-Tracker-acknowledgements.markdown">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:Manifest.lock">
+      </FileRef>
+      <Group
+         location = "group:Local Podspecs"
+         name = "Local Podspecs">
+      </Group>
+      <Group
+         location = "group:Headers"
+         name = "Headers">
+      </Group>
+      <Group
+         location = "group:Starscream"
+         name = "Starscream">
+         <FileRef
+            location = "group:LICENSE">
+         </FileRef>
+         <Group
+            location = "group:zlib"
+            name = "zlib">
+            <FileRef
+               location = "group:include.h">
+            </FileRef>
+            <FileRef
+               location = "group:module.modulemap">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <Group
+            location = "group:Sources"
+            name = "Sources">
+            <FileRef
+               location = "group:Compression.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SSLSecurity.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WebSocket.swift">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
+   <Group
+      location = "group:Tracker"
+      name = "Tracker">
+      <FileRef
+         location = "group:Tracker.xcdatamodeld">
+      </FileRef>
+      <FileRef
+         location = "group:ViewController.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Tracker.entitlements">
+      </FileRef>
+      <Group
+         location = "group:Assets.xcassets"
+         name = "Assets.xcassets">
+         <Group
+            location = "group:AppIcon.appiconset"
+            name = "AppIcon.appiconset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:Base.lproj"
+         name = "Base.lproj">
+         <FileRef
+            location = "group:LaunchScreen.storyboard">
+         </FileRef>
+         <FileRef
+            location = "group:Main.storyboard">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Model"
+         name = "Model">
+         <FileRef
+            location = "group:EventLogFileManager.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PeripheralLogFileManager.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PeripheralLog.swift">
+         </FileRef>
+         <FileRef
+            location = "group:EventLog.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:AppDelegate.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Const.swift">
+      </FileRef>
+      <Group
+         location = "group:Service"
+         name = "Service">
+         <FileRef
+            location = "group:BeaconServiceManager.swift">
+         </FileRef>
+         <FileRef
+            location = "group:WebSocketClient.swift">
+         </FileRef>
+         <FileRef
+            location = "group:LocationMonitor.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UserNotificationManager.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Scanner.swift">
+         </FileRef>
+         <FileRef
+            location = "group:BeaconMonitor.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Emitter.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Packer.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Info.plist">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:TrackerTests"
+      name = "TrackerTests">
+      <FileRef
+         location = "group:TrackerTests.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Info.plist">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:TrackerUITests"
+      name = "TrackerUITests">
+      <FileRef
+         location = "group:TrackerUITests.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Info.plist">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
