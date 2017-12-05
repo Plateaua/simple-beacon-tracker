@@ -1,0 +1,35 @@
+
+#*.xcworkspace
+!default.xcworkspace
+Pods
+#Podfile.lock
+/vendor/bundle/*
+
+.ruby-version
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Xcode起動の度に編集される
+# UserInterfaceState.xcuserstateなど
+*.xcuserstate
+
+# VCSのメタデータが含まれ、コミットしてしまうとmergeが困難になるなどの問題が発生する
+# http://stackoverflow.com/questions/18340453/should-xccheckout-files-in-xcode5-be-ignored-under-vcs
+*.xccheckout
+
+# bitrise
+codesigndoc_exports/
+
+Carthage/*
+
+
