@@ -66,8 +66,8 @@ class Scanner: NSObject, CLLocationManagerDelegate {
             beacon.rssi < 0
         })
         
-        let x = Array(beaconsWithinACertainDistance[0...10])
-        Packer(serviceToken: self.serviceToken!, deviceToken: self.deviceToken!).pack(beacons: x)
+//        let x = Array(beaconsWithinACertainDistance[0...10])
+        Packer(serviceToken: self.serviceToken!, deviceToken: self.deviceToken!).pack(beacons: beaconsWithinACertainDistance)
         delegate?.didRangeBeacons(beacons: beaconsWithinACertainDistance)
     }
     
